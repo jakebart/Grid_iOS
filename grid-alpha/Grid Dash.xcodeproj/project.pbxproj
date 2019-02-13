@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1D01682190041F00854E02 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1D01672190041F00854E02 /* ViewController3.swift */; };
+		6C48C7E621AE668500801753 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C48C7E521AE668500801753 /* ViewController5.swift */; };
+		6C68B500218CCA6000E66C3D /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C68B4FF218CCA6000E66C3D /* ViewController2ViewController.swift */; };
+		6CA97B4F218A9BAE0042593E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA97B4E218A9BAE0042593E /* AppDelegate.swift */; };
+		6CA97B51218A9BAE0042593E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA97B50218A9BAE0042593E /* ViewController.swift */; };
+		6CA97B54218A9BAE0042593E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA97B52218A9BAE0042593E /* Main.storyboard */; };
+		6CA97B56218A9BAE0042593E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA97B55218A9BAE0042593E /* Assets.xcassets */; };
+		6CA97B59218A9BAE0042593E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA97B57218A9BAE0042593E /* LaunchScreen.storyboard */; };
+		6CA97B64218A9BAE0042593E /* grid_alphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA97B63218A9BAE0042593E /* grid_alphaTests.swift */; };
+		6CA97B6F218A9BAE0042593E /* grid_alphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA97B6E218A9BAE0042593E /* grid_alphaUITests.swift */; };
+		6CA97B7D218A9DAA0042593E /* control.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA97B7C218A9DAA0042593E /* control.swift */; };
+		6CFD275C219F40120026C958 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD275B219F40120026C958 /* ViewController4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA97B60218A9BAE0042593E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA97B43218A9BAE0042593E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA97B4A218A9BAE0042593E;
+			remoteInfo = "grid-alpha";
+		};
+		6CA97B6B218A9BAE0042593E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA97B43218A9BAE0042593E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA97B4A218A9BAE0042593E;
+			remoteInfo = "grid-alpha";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C1D01672190041F00854E02 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		6C48C7E521AE668500801753 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		6C68B4FF218CCA6000E66C3D /* ViewController2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
+		6CA97B4B218A9BAE0042593E /* Grid Dash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grid Dash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA97B4E218A9BAE0042593E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CA97B50218A9BAE0042593E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CA97B53218A9BAE0042593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA97B55218A9BAE0042593E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CA97B58218A9BAE0042593E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CA97B5A218A9BAE0042593E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA97B5F218A9BAE0042593E /* Grid DashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid DashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA97B63218A9BAE0042593E /* grid_alphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grid_alphaTests.swift; sourceTree = "<group>"; };
+		6CA97B65218A9BAE0042593E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA97B6A218A9BAE0042593E /* Grid DashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid DashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA97B6E218A9BAE0042593E /* grid_alphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grid_alphaUITests.swift; sourceTree = "<group>"; };
+		6CA97B70218A9BAE0042593E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA97B7C218A9DAA0042593E /* control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = control.swift; sourceTree = "<group>"; };
+		6CFD275B219F40120026C958 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA97B48218A9BAE0042593E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA97B5C218A9BAE0042593E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA97B67218A9BAE0042593E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA97B42218A9BAE0042593E = {
+			isa = PBXGroup;
+			children = (
+				6CA97B4D218A9BAE0042593E /* grid-alpha */,
+				6CA97B62218A9BAE0042593E /* grid-alphaTests */,
+				6CA97B6D218A9BAE0042593E /* grid-alphaUITests */,
+				6CA97B4C218A9BAE0042593E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA97B4C218A9BAE0042593E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA97B4B218A9BAE0042593E /* Grid Dash.app */,
+				6CA97B5F218A9BAE0042593E /* Grid DashTests.xctest */,
+				6CA97B6A218A9BAE0042593E /* Grid DashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA97B4D218A9BAE0042593E /* grid-alpha */ = {
+			isa = PBXGroup;
+			children = (
+				6CA97B4E218A9BAE0042593E /* AppDelegate.swift */,
+				6CA97B50218A9BAE0042593E /* ViewController.swift */,
+				6CA97B52218A9BAE0042593E /* Main.storyboard */,
+				6C48C7E521AE668500801753 /* ViewController5.swift */,
+				6CFD275B219F40120026C958 /* ViewController4.swift */,
+				6C1D01672190041F00854E02 /* ViewController3.swift */,
+				6C68B4FF218CCA6000E66C3D /* ViewController2ViewController.swift */,
+				6CA97B7C218A9DAA0042593E /* control.swift */,
+				6CA97B55218A9BAE0042593E /* Assets.xcassets */,
+				6CA97B57218A9BAE0042593E /* LaunchScreen.storyboard */,
+				6CA97B5A218A9BAE0042593E /* Info.plist */,
+			);
+			path = "grid-alpha";
+			sourceTree = "<group>";
+		};
+		6CA97B62218A9BAE0042593E /* grid-alphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA97B63218A9BAE0042593E /* grid_alphaTests.swift */,
+				6CA97B65218A9BAE0042593E /* Info.plist */,
+			);
+			path = "grid-alphaTests";
+			sourceTree = "<group>";
+		};
+		6CA97B6D218A9BAE0042593E /* grid-alphaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA97B6E218A9BAE0042593E /* grid_alphaUITests.swift */,
+				6CA97B70218A9BAE0042593E /* Info.plist */,
+			);
+			path = "grid-alphaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA97B4A218A9BAE0042593E /* Grid Dash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA97B73218A9BAE0042593E /* Build configuration list for PBXNativeTarget "Grid Dash" */;
+			buildPhases = (
+				6CA97B47218A9BAE0042593E /* Sources */,
+				6CA97B48218A9BAE0042593E /* Frameworks */,
+				6CA97B49218A9BAE0042593E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grid Dash";
+			productName = "grid-alpha";
+			productReference = 6CA97B4B218A9BAE0042593E /* Grid Dash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA97B5E218A9BAE0042593E /* Grid DashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA97B76218A9BAE0042593E /* Build configuration list for PBXNativeTarget "Grid DashTests" */;
+			buildPhases = (
+				6CA97B5B218A9BAE0042593E /* Sources */,
+				6CA97B5C218A9BAE0042593E /* Frameworks */,
+				6CA97B5D218A9BAE0042593E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA97B61218A9BAE0042593E /* PBXTargetDependency */,
+			);
+			name = "Grid DashTests";
+			productName = "grid-alphaTests";
+			productReference = 6CA97B5F218A9BAE0042593E /* Grid DashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CA97B69218A9BAE0042593E /* Grid DashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA97B79218A9BAE0042593E /* Build configuration list for PBXNativeTarget "Grid DashUITests" */;
+			buildPhases = (
+				6CA97B66218A9BAE0042593E /* Sources */,
+				6CA97B67218A9BAE0042593E /* Frameworks */,
+				6CA97B68218A9BAE0042593E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA97B6C218A9BAE0042593E /* PBXTargetDependency */,
+			);
+			name = "Grid DashUITests";
+			productName = "grid-alphaUITests";
+			productReference = 6CA97B6A218A9BAE0042593E /* Grid DashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA97B43218A9BAE0042593E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jacob Barth";
+				TargetAttributes = {
+					6CA97B4A218A9BAE0042593E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					6CA97B5E218A9BAE0042593E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CA97B4A218A9BAE0042593E;
+					};
+					6CA97B69218A9BAE0042593E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CA97B4A218A9BAE0042593E;
+					};
+				};
+			};
+			buildConfigurationList = 6CA97B46218A9BAE0042593E /* Build configuration list for PBXProject "Grid Dash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA97B42218A9BAE0042593E;
+			productRefGroup = 6CA97B4C218A9BAE0042593E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA97B4A218A9BAE0042593E /* Grid Dash */,
+				6CA97B5E218A9BAE0042593E /* Grid DashTests */,
+				6CA97B69218A9BAE0042593E /* Grid DashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA97B49218A9BAE0042593E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA97B59218A9BAE0042593E /* LaunchScreen.storyboard in Resources */,
+				6CA97B56218A9BAE0042593E /* Assets.xcassets in Resources */,
+				6CA97B54218A9BAE0042593E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA97B5D218A9BAE0042593E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA97B68218A9BAE0042593E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA97B47218A9BAE0042593E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1D01682190041F00854E02 /* ViewController3.swift in Sources */,
+				6CFD275C219F40120026C958 /* ViewController4.swift in Sources */,
+				6CA97B51218A9BAE0042593E /* ViewController.swift in Sources */,
+				6CA97B7D218A9DAA0042593E /* control.swift in Sources */,
+				6C68B500218CCA6000E66C3D /* ViewController2ViewController.swift in Sources */,
+				6CA97B4F218A9BAE0042593E /* AppDelegate.swift in Sources */,
+				6C48C7E621AE668500801753 /* ViewController5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA97B5B218A9BAE0042593E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA97B64218A9BAE0042593E /* grid_alphaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA97B66218A9BAE0042593E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA97B6F218A9BAE0042593E /* grid_alphaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA97B61218A9BAE0042593E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA97B4A218A9BAE0042593E /* Grid Dash */;
+			targetProxy = 6CA97B60218A9BAE0042593E /* PBXContainerItemProxy */;
+		};
+		6CA97B6C218A9BAE0042593E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA97B4A218A9BAE0042593E /* Grid Dash */;
+			targetProxy = 6CA97B6B218A9BAE0042593E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA97B52218A9BAE0042593E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA97B53218A9BAE0042593E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA97B57218A9BAE0042593E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA97B58218A9BAE0042593E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA97B71218A9BAE0042593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jacob.barth@me.com (JW2YY5JM54)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7PWW79VB4B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CA97B72218A9BAE0042593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jacob.barth@me.com (JW2YY5JM54)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7PWW79VB4B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA97B74218A9BAE0042593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PWW79VB4B;
+				INFOPLIST_FILE = "grid-alpha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grid-alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA97B75218A9BAE0042593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PWW79VB4B;
+				INFOPLIST_FILE = "grid-alpha/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grid-alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CA97B77218A9BAE0042593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grid-alphaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grid-alphaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grid Dash.app/Grid Dash";
+			};
+			name = Debug;
+		};
+		6CA97B78218A9BAE0042593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grid-alphaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grid-alphaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grid Dash.app/Grid Dash";
+			};
+			name = Release;
+		};
+		6CA97B7A218A9BAE0042593E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grid-alphaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grid-alphaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grid-alpha";
+			};
+			name = Debug;
+		};
+		6CA97B7B218A9BAE0042593E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "grid-alphaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grid-alphaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grid-alpha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA97B46218A9BAE0042593E /* Build configuration list for PBXProject "Grid Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA97B71218A9BAE0042593E /* Debug */,
+				6CA97B72218A9BAE0042593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA97B73218A9BAE0042593E /* Build configuration list for PBXNativeTarget "Grid Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA97B74218A9BAE0042593E /* Debug */,
+				6CA97B75218A9BAE0042593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA97B76218A9BAE0042593E /* Build configuration list for PBXNativeTarget "Grid DashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA97B77218A9BAE0042593E /* Debug */,
+				6CA97B78218A9BAE0042593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA97B79218A9BAE0042593E /* Build configuration list for PBXNativeTarget "Grid DashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA97B7A218A9BAE0042593E /* Debug */,
+				6CA97B7B218A9BAE0042593E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA97B43218A9BAE0042593E /* Project object */;
+}
